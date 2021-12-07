@@ -1,0 +1,98 @@
+{
+  "pages": [
+    {
+      "path": "pages/home"
+    },
+    {
+      "path": "pages/home/detail"
+    },
+    {
+      "path": "pages/strategy"
+    },
+    {
+      "path": "pages/strategy/detail"
+    },
+
+
+    // /pages/strategy/detail
+    {
+      "path": "pages/quotation/index"
+    },
+    {
+      "path": "pages/About/index"
+    },
+    {
+      "path": "pages/About/proposal/index"
+    },
+    {
+      "path": "pages/About/wallet/index"
+    },
+    {
+      "path": "pages/About/account/index"
+    },
+    {
+      "path": "pages/accountAbout/charge"
+    },
+    {
+      "path": "pages/accountAbout/withdraw"
+    },
+    {
+      "path": "pages/accountAbout/chargeRecord"
+    },
+    {
+      "path": "pages/accountAbout/withdrawRecord"
+    }
+
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "BlUECHIP",
+    "bounceBackground": "#1E2742",
+    "navigationBarBackgroundColor": "#1E2742",
+    "backgroundColor": "#1E2742",
+    "style": {
+      "navigationBarTitleText": "",
+      "enablePullDownRefresh": true
+    },
+    "app-plus": {
+      "background": "#050E17",
+      "animationType": "slide-in-right",
+      "titleNView": false,
+      "scrollIndicator": "none",
+      "softinputNavBar": "none"
+    }
+  },
+  "tabBar": {
+    "color": "#858C9B",
+    "selectedColor": "#429AFB",
+    "backgroundColor": "#000000",
+    "fontSize": "11px",
+    "iconWidth": "22px",
+    "spacing": "1px",
+    "list": [{
+        "text": "首页",
+        "pagePath": "pages/home",
+        "iconPath": "static/images/tabbar/ic_bluechip_normal@2x.png",
+        "selectedIconPath": "static/images/tabbar/ic_bluechip_press@2x.png"
+      },
+      {
+        "text": "策略",
+        "pagePath": "pages/strategy",
+        "iconPath": "static/images/tabbar/ic_perpetuals_normal@2x.png",
+        "selectedIconPath": "static/images/tabbar/ic_perpetuals_press@2x.png"
+      },
+      {
+        "text": "行情",
+        "pagePath": "pages/quotation/index",
+        "iconPath": "./static/images/tabbar/ic_invest_normal@2x.png",
+        "selectedIconPath": "./static/images/tabbar/ic_invest_press@2x.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/About/index",
+        "iconPath": "./static/images/tabbar/ic_about_normal@2x.png",
+        "selectedIconPath": "./static/images/tabbar/ic_about_press@2x.png"
+      }
+    ]
+  }
+}
